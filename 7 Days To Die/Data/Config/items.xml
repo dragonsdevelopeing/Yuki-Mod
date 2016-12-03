@@ -2774,7 +2774,30 @@ which does not exist, yet. -->
 	</property>
 	<property name="EconomicValue" value="412" />
 </item>
-
+<item id="214" name="parts50CalSniperRifle_stock">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
+	<property name="PartType" value="Stock" />
+	<property name="Weight" value="30" />
+	<property class="Attributes">
+		<property name="DismembermentBaseChance" value="0.2,0.4"/>
+		<property name="DismembermentBonus" value="0,0.00150"/>
+		<property name="DegradationRate" value="15,21" />
+		<property name="DegradationMax" value="1700,7000" />
+	</property>
+	<property name="EconomicValue" value="875" />
+</item>
+<item id="215" name="parts50CalSniperRifle_receiver">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
+	<property name="PartType" value="Receiver" />
+	<property name="Weight" value="30" />
+	<property class="Attributes">
+		<property name="FalloffRange" value="74,190" />
+		<property name="DegradationMax" value="1700,7000" />
+	</property>
+	<property name="EconomicValue" value="875" />
+</item>
 <item id="216" name="parts44Magnum_grip">
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="parts44MagnumGroupDesc"/>
@@ -3078,6 +3101,30 @@ which does not exist, yet. -->
 		<property name="BlockDamage" value="6,14" />
 		<property name="DegradationMax" value="1500,5000" />
 	</property>
+</item>
+<item id="246" name="parts50CalSniperRifle_parts">
+	<property name="Extends" value="partsMaster" />
+	<property name="CustomIcon" value="partsPistol_parts" /> <!-- xxx -->
+	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
+	<property name="PartType" value="Pump" />
+	<property name="Weight" value="15" />
+	<property class="Attributes">
+		<property name="Accuracy" value=".5,0.01" />
+		<property name="DegradationMax" value="1700,7000" />
+	</property>
+	<property name="EconomicValue" value="875" />
+</item>
+<item id="247" name="parts50CalSniperRifle_barrel">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
+	<property name="PartType" value="Barrel" />
+	<property name="Weight" value="40" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="57.6,129" />
+		<property name="BlockDamage" value="6,14" />
+		<property name="DegradationMax" value="1700,7000" />
+	</property>
+	<property name="EconomicValue" value="875" />
 </item>
 
 <item id="248" name="partsSniperRifle_stock">
