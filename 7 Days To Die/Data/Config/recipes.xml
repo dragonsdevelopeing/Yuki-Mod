@@ -4843,6 +4843,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="60"/>
 	<ingredient name="concreteMix" count="60"/>
 </recipe>
+<!-- Elevators -->
+<recipe name="elevatorTest" count="1" craft_area="workbench" craft_tool="handSaw">
+	<ingredient name="wood" count="10"/>
+	<ingredient name="carpenterKit" count="1"/>
+</recipe>
 
 <!-- Ammo Conversions -->
 <recipe name="dismantle9mmBullets" count="1" craft_time = "5" craft_exp_gain="0" craft_area="workstationArmory">

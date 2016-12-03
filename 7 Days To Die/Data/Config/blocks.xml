@@ -521,6 +521,12 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="LPHardnessScale" value="2" />
 	<property name="Map.Color" value="55,79,58" />
 	<property class="RepairItems"> <property name="dirtFragment" value="10" /> <property name="yuccaFibers" value="2" /> </property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="fertileFarmland" />
+		<property name="Item" value="hoeIron" />
+		<property name="ItemCount" value="0" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
 	<drop event="Harvest" name="dirtFragment" count="7" />
 	<drop event="Destroy" name="dirtFragment" count="3" />
 	<drop event="Fall" name="sod" count="1" prob="0.25" stick_chance="1" />
@@ -13078,7 +13084,6 @@ kind of free
 </block>
 
 <block id="1587" name="elevatorTest">
-	<property name="IsDeveloper" value="true" />
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="wood" />
 	<property name="Shape" value="ModelEntity" />
@@ -13093,6 +13098,7 @@ kind of free
 	<property name="CloseSound" value="UseActions/close_door_wood" />
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
+	<property name="ActivationDistance" value="20" /> 	
 </block>
 
 <block id="1588" name="rustyIronWall01Sheet2">
