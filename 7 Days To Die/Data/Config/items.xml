@@ -460,7 +460,7 @@ Mesh files no longer used:
 		<property name="Class" value="Ranged" />
 		<property name="Delay" value="0.5" />
 		<property name="Magazine_size" value="6" />
-		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletAP, 50CalBulletINC, Unload" />
+		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletINC, Unload" />
 		<property name="Magazine_item_ray_counts" value="1,1,1" />
 		<property name="Magazine_item_ray_spreads" value="0,0,0" />
 		<property name="Reload_time" value="4" />
@@ -974,7 +974,7 @@ Mesh files no longer used:
 		<property name="Crosshair_min_distance" value="30" />
 		<property name="Crosshair_max_distance" value="100" />
 		<property name="Magazine_size" value="7" />
-		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletAP, 50CalBulletINC, Unload" />
+		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletINC, Unload" />
 		<property name="Magazine_item_ray_counts" value="1, 1, 1" />
 		<property name="Magazine_item_ray_spreads" value="0, 0, 0" />
 		<property name="Reload_time" value="3" />
@@ -2860,7 +2860,7 @@ which does not exist, yet. -->
 	<property name="PartType" value="Receiver" />
 	<property name="Weight" value="10" />
 	<property class="Attributes">
-		<property name="FalloffRange" value="17,50" />
+		<property name="FalloffRange" value="27,65" />
 		<property name="DegradationMax" value="2000,10000" />
 	</property>
 	<property name="EconomicValue" value="1125" />
@@ -2951,7 +2951,7 @@ which does not exist, yet. -->
 	<property name="PartType" value="Barrel" />
 	<property name="Weight" value="20" />
 	<property class="Attributes">
-		<property name="EntityDamage" value="35.2,88" />
+		<property name="EntityDamage" value="55.2,108" />
 		<property name="BlockDamage" value="10,24" />
 		<property name="DegradationMax" value="2000,10000" />
 	</property>
@@ -9951,7 +9951,7 @@ which does not exist, yet. -->
 		<property name="DescriptionKey" value="BulletHPDesc"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
-			<property name="EntityDamage" value="10,12" />
+			<property name="EntityDamage" value="20,32" />
 			<property name="BlockDamage" value="5,7" />
 			<property name="ApplyBuff" value="0.7,0.7" param1="stunned" />
 		</property>
@@ -10098,12 +10098,12 @@ which does not exist, yet. -->
 		</property>
 </item>
 <item id="1654" name="50CalBulletINC">
-		<property name="Extends" value="50CalBullet" />
-		<property name="DescriptionKey" value="50CalBulletINCDesc"/>
+		<property name="Extends" value="50CalBulletHP" />
+		<property name="DescriptionKey" value="BulletINCDesc"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
-			<property name="BlockDamage" value="15,27" />
-			<property name="ApplyBuff" value="50,75" param1="burningSmall" />
+			<property name="BlockDamage" value="5,7" />
+			<property name="ApplyBuff" value="1,1" param1="burningSmall" />
 		</property>
 </item>
 <item id="1655" name="50CalBulletAP">
@@ -10115,7 +10115,7 @@ which does not exist, yet. -->
 		</property>
 </item>
 <item id="1656" name="30-06BulletHP">
-		<property name="Extends" value="50CalBullet" />
+		<property name="Extends" value="30-06Bullet" />
 		<property name="DescriptionKey" value="50CalBulletHPDesc"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
@@ -10125,8 +10125,8 @@ which does not exist, yet. -->
 		</property>
 </item>
 <item id="1657" name="30-06BulletINC">
-		<property name="Extends" value="50CalBullet" />
-		<property name="DescriptionKey" value="50CalBulletINCDesc"/>
+		<property name="Extends" value="30-06Bullet" />
+		<property name="DescriptionKey" value="30-06BulletINCDesc"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
 			<property name="BlockDamage" value="15,27" />
