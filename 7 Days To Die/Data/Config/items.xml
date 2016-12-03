@@ -460,9 +460,9 @@ Mesh files no longer used:
 		<property name="Class" value="Ranged" />
 		<property name="Delay" value="0.5" />
 		<property name="Magazine_size" value="6" />
-		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletINC, Unload" />
-		<property name="Magazine_item_ray_counts" value="1,1,1" />
-		<property name="Magazine_item_ray_spreads" value="0,0,0" />
+		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletINC, 50CalBulletAP, Unload" />
+		<property name="Magazine_item_ray_counts" value="1,1,1,1" />
+		<property name="Magazine_item_ray_spreads" value="0,0,0,0" />
 		<property name="Reload_time" value="4" />
 		<property name="Bullet_icon" value="pistol" />
 		<property name="Sound_start" value="Weapons/Ranged/44Magnum/44magnum_fire" />
@@ -974,9 +974,9 @@ Mesh files no longer used:
 		<property name="Crosshair_min_distance" value="30" />
 		<property name="Crosshair_max_distance" value="100" />
 		<property name="Magazine_size" value="7" />
-		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletINC, Unload" />
-		<property name="Magazine_item_ray_counts" value="1, 1, 1" />
-		<property name="Magazine_item_ray_spreads" value="0, 0, 0" />
+		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletINC, 50CalBulletAP, Unload" />
+		<property name="Magazine_item_ray_counts" value="1, 1, 1, 1" />
+		<property name="Magazine_item_ray_spreads" value="0, 0, 0, 0" />
 		<property name="Reload_time" value="3" />
 		<property name="Bullet_icon" value="uzi" />
 		<property name="Sound_start" value="Weapons/Ranged/SniperRifle/sniperrifle_fire" />
@@ -10098,12 +10098,12 @@ which does not exist, yet. -->
 		</property>
 </item>
 <item id="1654" name="50CalBulletINC">
-		<property name="Extends" value="50CalBulletHP" />
+		<property name="Extends" value="50CalBullet" />
 		<property name="DescriptionKey" value="BulletINCDesc"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
 			<property name="BlockDamage" value="5,7" />
-			<property name="ApplyBuff" value="1,1" param1="burningSmall" />
+			<property name="ApplyBuff" value="1,1" param1="burningMedium" />
 		</property>
 </item>
 <item id="1655" name="50CalBulletAP">
