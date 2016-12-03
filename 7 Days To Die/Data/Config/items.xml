@@ -2820,6 +2820,28 @@ which does not exist, yet. -->
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
+<item id="220" name="partsDesertEagle_grip">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsDesertEagleGroupDesc"/>
+	<property name="PartType" value="Stock" />
+	<property name="Weight" value="15" />
+	<property class="Attributes">
+		<property name="DegradationRate" value="16,34" />
+		<property name="DegradationMax" value="2000,10000" />
+	</property>
+	<property name="EconomicValue" value="1125" />
+</item>
+<item id="221" name="partsDesertEagle_cylinder">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="DesertEagleGroupDesc"/>
+	<property name="PartType" value="Receiver" />
+	<property name="Weight" value="10" />
+	<property class="Attributes">
+		<property name="FalloffRange" value="17,50" />
+		<property name="DegradationMax" value="2000,10000" />
+	</property>
+	<property name="EconomicValue" value="1125" />
+</item>
 
 <item id="222" name="partsPumpShotgun_stockShort">
 	<property name="Extends" value="partsMaster" />
@@ -2888,6 +2910,29 @@ which does not exist, yet. -->
 		<property name="DegradationMax" value="800,3600" />
 	</property>
 	<property name="EconomicValue" value="675" />
+</item>
+<item id="228" name="partsDesertEagle_parts">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsDesertEagleGroupDesc"/>
+	<property name="PartType" value="Pump" />
+	<property name="Weight" value="10" />
+	<property class="Attributes">
+		<property name="Accuracy" value="1,0.05" />
+		<property name="DegradationMax" value="2000,10000" />
+	</property>
+	<property name="EconomicValue" value="1125" />
+</item>
+<item id="229" name="partsDesertEagle_frame">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsDesertEagleGroupDesc"/>
+	<property name="PartType" value="Barrel" />
+	<property name="Weight" value="20" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="35.2,88" />
+		<property name="BlockDamage" value="10,24" />
+		<property name="DegradationMax" value="2000,10000" />
+	</property>
+	<property name="EconomicValue" value="1125" />
 </item>
 
 <item id="230" name="partsMP5_stock">
@@ -10015,7 +10060,7 @@ which does not exist, yet. -->
 		</property>
 </item>
 <item id="1655" name="50CalBulletAP">
-		<property name="Extends" value="50CalmBullet" />
+		<property name="Extends" value="50CalBullet" />
 		<property name="DescriptionKey" value="50CalBulletAPDesc"/>
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
