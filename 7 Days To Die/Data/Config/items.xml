@@ -974,7 +974,7 @@ Mesh files no longer used:
 		<property name="Crosshair_min_distance" value="30" />
 		<property name="Crosshair_max_distance" value="100" />
 		<property name="Magazine_size" value="7" />
-		<property name="Magazine_items" value="50CalBullet, 50CaBulletHP, 50CaBulletAP, 50CaBulletINC, Unload" />
+		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletAP, 50CalBulletINC, Unload" />
 		<property name="Magazine_item_ray_counts" value="1, 1, 1" />
 		<property name="Magazine_item_ray_spreads" value="0, 0, 0" />
 		<property name="Reload_time" value="3" />
@@ -2151,7 +2151,24 @@ which does not exist, yet. -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
 </item>
-
+<item id="154" name="50CalBullet">
+	<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44_roundPrefab" />
+	<property name="Material" value="brass" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
+	<property name="Group" value="Ammo/Weapons" />
+	<property name="EconomicValue" value="19" />
+	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+</item>
+<item id="155" name="30-06Bullet">
+	<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab" />
+	<property name="Material" value="brass" />
+	<property name="HoldType" value="21" />
+	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
+	<property name="EconomicValue" value="19" />
+	<property name="Group" value="Ammo/Weapons" />
+	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+</item>
 <item id="156" name="shotgunShell">
 	<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab" />
 	<property name="Material" value="lead" />
@@ -9962,7 +9979,7 @@ which does not exist, yet. -->
 	<property name="Extends" value="bulletCasing" />
 	<property name="DescriptionKey" value="shotgunShellCasingDesc"/>
 </item>
-	<item id="1652" name="lokiShell">
+<item id="1652" name="lokiShell">
 	<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab" />
 	<property name="Material" value="lead" />
 	<property name="HoldType" value="21" />
@@ -9977,7 +9994,53 @@ which does not exist, yet. -->
 			<property name="ApplyBuff" value="1,1" param1="AcidSplash" />
 		</property>
 		<property name="CraftingSkillGroup" value="Science"/>
-	</item>
+</item>
+<item id="1653" name="50CalBulletHP">
+		<property name="Extends" value="50CalBullet" />
+		<property name="DescriptionKey" value="50CalBulletHPDesc"/>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="20,30" />
+			<property name="BlockDamage" value="4,5" />
+			<property name="ApplyBuff" value="0.7,0.7" param1="stunned" />
+		</property>
+</item>
+<item id="1654" name="50CalBulletINC">
+		<property name="Extends" value="50CalBullet" />
+		<property name="DescriptionKey" value="50CalBulletINCDesc"/>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="BlockDamage" value="15,27" />
+			<property name="ApplyBuff" value="50,75" param1="burningSmall" />
+		</property>
+</item>
+<item id="1655" name="50CalBulletAP">
+		<property name="Extends" value="50CalmBullet" />
+		<property name="DescriptionKey" value="50CalBulletAPDesc"/>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="BlockDamage" value="34,75" />
+		</property>
+</item>
+<item id="1656" name="30-06BulletHP">
+		<property name="Extends" value="50CalBullet" />
+		<property name="DescriptionKey" value="50CalBulletHPDesc"/>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="25,40" />
+			<property name="BlockDamage" value="4,5" />
+			<property name="ApplyBuff" value="0.7,0.7" param1="stunned" />
+		</property>
+</item>
+<item id="1657" name="30-06BulletINC">
+		<property name="Extends" value="50CalBullet" />
+		<property name="DescriptionKey" value="50CalBulletINCDesc"/>
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="BlockDamage" value="15,27" />
+			<property name="ApplyBuff" value="25,50" param1="burningSmall" />
+		</property>
+</item>
 	
 	<!-- Admin Tools -->
 	<item id="1662" name="Admin Tool">
