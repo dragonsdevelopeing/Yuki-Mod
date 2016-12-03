@@ -1420,6 +1420,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="parts44Magnum_grip" count="1"/>
 </recipe>
 
+<recipe name="gunDesertEagle" count="1" craft_area="assembly">
+	<ingredient name="flashlight02" count="0"/>
+	<ingredient name="partsDesertEagle_frame" count="1"/>
+	<ingredient name="partsDesertEagle_cylinder" count="1"/>
+	<ingredient name="partsDesertEagle_parts" count="1"/>
+	<ingredient name="partsDesertEagle_grip" count="1"/>
+</recipe>
+
 <recipe name="gunAK47" count="1" craft_area="assembly">
 	<ingredient name="flashlight02" count="0"/>
 	<ingredient name="partsAK47_stock" count="1"/>
@@ -1497,6 +1505,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="partsSniperRifle_receiver" count="1"/>
 	<ingredient name="partsSniperRifle_stock" count="1"/>
 	<ingredient name="partsSniperRifle_parts" count="1"/>
+</recipe>
+
+<recipe name="gun50CalSniperRifle" count="1" craft_area="assembly">
+	<ingredient name="flashlight02" count="0"/>
+	<ingredient name="parts50CalSniperRifle_barrel" count="1"/>
+	<ingredient name="parts50CalSniperRifle_receiver" count="1"/>
+	<ingredient name="parts50CalSniperRifle_stock" count="1"/>
+	<ingredient name="parts50CalSniperRifle_parts" count="1"/>
 </recipe>
 
 <recipe name="hayBaleBlock" count="1">
@@ -3582,6 +3598,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="crossbow" count="1"/>
 	<ingredient name="spring" count="5"/>
 	<ingredient name="mechanicalParts" count="10"/>
+</recipe>
+<recipe name="scopeCrossbowRepeater" count="1">
+	<ingredient name="gunScope" count="1"/>
+	<ingredient name="crossbowRepeater" count="1"/>
 </recipe>
 <recipe name="scythe" count="1" craft_area="workbench">
 	<ingredient name="toolHeadBladeScythe" count="1"/>
