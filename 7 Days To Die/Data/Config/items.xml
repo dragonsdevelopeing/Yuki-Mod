@@ -452,7 +452,7 @@ Mesh files no longer used:
 	<property name="Attachments" value="flashlight02" />
 	<property class="Parts">
 		<property name="Stock" value="partsDesertEagle_grip" />
-		<property name="Receiver" value="partsDesertEagl_cylinder" />
+		<property name="Receiver" value="partsDesertEagle_cylinder" />
 		<property name="Pump" value="partsDesertEagl_parts" />
 		<property name="Barrel" value="partsDesertEagl_frame" />
 	</property>
