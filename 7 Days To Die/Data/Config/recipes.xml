@@ -108,7 +108,19 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="44MagBulletCasing" count="1" />
 </recipe>
 
+<recipe name="50CalBullet" count="1" craft_area="workstationArmory">
+	<ingredient name="bulletTip" count="1"/>
+	<ingredient name="gunPowder" count="4"/>
+	<ingredient name="50CalBulletCasing" count="1" />
+</recipe>
+
 <recipe name="762mmBullet" count="1" craft_area="workstationArmory">
+	<ingredient name="bulletTip" count="1"/>
+	<ingredient name="gunPowder" count="3"/>
+	<ingredient name="762mmBulletCasing" count="1" />
+</recipe>
+
+<recipe name="30-06Bullet" count="1" craft_area="workstationArmory">
 	<ingredient name="bulletTip" count="1"/>
 	<ingredient name="gunPowder" count="3"/>
 	<ingredient name="762mmBulletCasing" count="1" />
@@ -610,6 +622,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 <recipe name="762mmBulletCasing" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_brass" count="2"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
+<recipe name="30-06BulletCasing" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_brass" count="2"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
+<recipe name="50CalBulletCasing" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
 	<ingredient name="unit_brass" count="2"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
@@ -3437,6 +3457,36 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
         <!--<ingredient name="bulletCasing" count="1"/>-->
 		<ingredient name="762mmBulletCasing" count="1" />
     </recipe>
+  <recipe name="30-06BulletHP" count="1" craft_area="workstationArmory">
+		<ingredient name="HollowTip" count="1" />
+        <ingredient name="gunPowder" count="3"/>
+        <!--<ingredient name="bulletCasing" count="1"/>-->
+		<ingredient name="762mmBulletCasing" count="1" />
+    </recipe>
+    <recipe name="30-06BulletINC" count="1" craft_area="workstationArmory">
+		<ingredient name="HollowTip" count="1" />
+        <ingredient name="gunPowder" count="4"/>
+        <!--<ingredient name="bulletCasing" count="1"/>-->
+		<ingredient name="762mmBulletCasing" count="1" />
+    </recipe>
+  <recipe name="50CalBulletHP" count="1" craft_area="workstationArmory">
+		<ingredient name="HollowTip" count="1" />
+        <ingredient name="gunPowder" count="4"/>
+        <!--<ingredient name="bulletCasing" count="1"/>-->
+		<ingredient name="50CalBulletCasing" count="1" />
+    </recipe>
+    <recipe name="50CalBulletINC" count="1" craft_area="workstationArmory">
+		<ingredient name="HollowTip" count="1" />
+        <ingredient name="gunPowder" count="4"/>
+        <!--<ingredient name="bulletCasing" count="1"/>-->
+		<ingredient name="50CalBulletCasing" count="1" />
+    </recipe>
+    <recipe name="50CalBulletAP" count="1" craft_area="workstationArmory">
+		<ingredient name="HollowTip" count="1" />
+        <ingredient name="gunPowder" count="4"/>
+        <!--<ingredient name="bulletCasing" count="1"/>-->
+		<ingredient name="50CalBulletCasing" count="1" />
+    </recipe>	
     <recipe name="9mmBulletHP" count="1" craft_area="workstationArmory">
 		<ingredient name="HollowTip" count="1" />
         <ingredient name="gunPowder" count="1"/>

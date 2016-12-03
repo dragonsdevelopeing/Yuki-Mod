@@ -463,9 +463,9 @@
 	<property name="SoundSense" value="Enemies/Acid_Puking_Hulk/hulksense" />
 	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
 	<property name="Explosion.ParticleIndex" value="8" />
-	<property name="Explosion.RadiusBlocks" value="5" />
-	<property name="Explosion.RadiusEntities" value="6" />
-	<property name="Explosion.BlockDamage" value="500" />
+	<property name="Explosion.RadiusBlocks" value="3" />
+	<property name="Explosion.RadiusEntities" value="4" />
+	<property name="Explosion.BlockDamage" value="100" />
 	<property name="Explosion.EntityDamage" value="150" />
 	<property name="Explosion.DamageBonus.earth" value="0" />
 	<property name="ExperienceGain" value="700"/>
