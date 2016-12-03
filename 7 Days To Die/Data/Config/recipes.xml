@@ -1567,7 +1567,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="feather" count="1"/>
 </recipe>
 
-<recipe name="ironArrowHead" count="1" craft_area="forge" craft_tool="anvil" material_based="true">
+<recipe name="stoneArrowHead" count="10" craft_area="forge" craft_tool="anvil" material_based="true">
+	<ingredient name="rockSmall" count="1"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
+
+<recipe name="ironArrowHead" count="10" craft_area="forge" craft_tool="anvil" material_based="true">
 	<ingredient name="unit_iron" count="2"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
@@ -1607,8 +1612,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="ironRingsRivets" count="4"/>
 </recipe>
 
-<recipe name="ironCrossbowBolt" count="1">
-	<ingredient name="ironArrowHead" count="1"/>
+<recipe name="crossbowBolt" count="1">
+	<ingredient name="stoneArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="1"/>
 </recipe>
