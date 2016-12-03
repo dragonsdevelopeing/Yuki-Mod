@@ -453,8 +453,8 @@ Mesh files no longer used:
 	<property class="Parts">
 		<property name="Stock" value="partsDesertEagle_grip" />
 		<property name="Receiver" value="partsDesertEagle_cylinder" />
-		<property name="Pump" value="partsDesertEagl_parts" />
-		<property name="Barrel" value="partsDesertEagl_frame" />
+		<property name="Pump" value="partsDesertEagle_parts" />
+		<property name="Barrel" value="partsDesertEagle_frame" />
 	</property>
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Ranged" />
