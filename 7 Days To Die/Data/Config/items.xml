@@ -435,7 +435,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Pistols"/>
-	<property name="CraftingSkillGroup" value="Pistols"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -488,7 +488,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Pistols"/>
-	<property name="CraftingSkillGroup" value="Pistols"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -541,7 +541,60 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Pistols"/>
-	<property name="CraftingSkillGroup" value="Pistols"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
+	<property class="Attributes">
+			<property name="BlockDamage" value="1,1" />
+		</property>
+</item>
+<item id="43" name="gunScrapPistol">
+	<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/PistolPrefab" />
+	<property name="Material" value="metal" />
+	<property name="RepairTools" value="repairKit" />
+	<property name="HoldType" value="1" />
+ 	<property name="DegradationBreaksAfter" value="false" />
+	<property name="SoundJammed" value="Weapons/weapon_jam" />
+	<property name="Attachments" value="flashlight02" />
+	<property class="Parts">
+		<property name="Stock" value="partsScrapPistol_grip" />
+		<property name="Receiver" value="partsScrapPistol_receiver" />
+		<property name="Pump" value="partsScrapPistol_parts" />
+		<property name="Barrel" value="partsScrapPistol_barrel" />
+	</property>
+	<property class="Action0"> <!-- AttackAction -->
+		<property name="Class" value="Ranged" />
+		<property name="Delay" value="0.8" />
+		<property name="Magazine_size" value="75" />
+		<property name="Magazine_items" value="9mmBullet, 9mmBulletHP, 9mmBulletINC, Unload" />
+		<property name="Magazine_item_ray_counts" value="1, 1, 1" />
+		<property name="Magazine_item_ray_spreads" value="0, 0, 0" />
+		<property name="Reload_time" value="2" />
+		<property name="Bullet_icon" value="pistol" />
+		<property name="Sound_start" value="Weapons/Ranged/Pistol/pistol_fire" />
+		<property name="Sound_repeat" value="" />
+		<property name="Sound_end" value="" />
+		<property name="Sound_empty" value="Weapons/weapon_empty" />
+		<property name="Sound_reload" value="Weapons/Ranged/Pistol/pistol_reload" />
+		<property name="Particles_muzzle_fire" value="nozzleflash" />
+		<property name="Particles_muzzle_smoke" value="nozzlesmoke" />
+		<property name="DamageBonus.head" value="4" />
+		<property name="DamageBonus.wood" value="1" />
+		<property name="DamageBonus.earth" value=".4" />
+		<property name="DamageBonus.glass" value="25" />
+		<property name="ActionExp" value="3" />
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Zoom" />
+		<property name="Zoom_max_out" value="35" />
+		<property name="Zoom_max_in" value="35" />
+	</property>
+	<property name="LightSource" value="lightSource" /> <!-- Start: Needed for the attachment flashlight -->
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
+	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
+	<property name="Group" value="Ammo/Weapons" />
+	<property name="ActionSkillGroup" value="Pistols"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -598,7 +651,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Shotguns"/>
-	<property name="CraftingSkillGroup" value="Shotguns"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -655,7 +708,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Shotguns"/>
-	<property name="CraftingSkillGroup" value="Shotguns"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="alternateAmmoTip,gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -711,7 +764,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Shotguns"/>
-	<property name="CraftingSkillGroup" value="Shotguns"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="alternateAmmoTip,gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -772,7 +825,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Assault Rifles"/>
-	<property name="CraftingSkillGroup" value="Assault Rifles"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -833,7 +886,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Assault Rifles"/>
-	<property name="CraftingSkillGroup" value="Assault Rifles"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -890,7 +943,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Rifles"/>
-	<property name="CraftingSkillGroup" value="Rifles"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -947,7 +1000,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Rifles"/>
-	<property name="CraftingSkillGroup" value="Rifles"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -1003,7 +1056,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Rifles"/>
-	<property name="CraftingSkillGroup" value="Rifles"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -1059,7 +1112,7 @@ Mesh files no longer used:
 	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Rifles"/>
-	<property name="CraftingSkillGroup" value="Rifles"/>
+	<property name="CraftingSkillGroup" value="Gun Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 	<property class="Attributes">
@@ -1103,7 +1156,7 @@ Mesh files no longer used:
 		<property name="Zoom_max_in" value="40" />
 	</property>
 	<property name="Group" value="Ammo/Weapons" />
-	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+	<property name="CraftingSkillGroup" value="Heavy Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 </item>
@@ -1157,7 +1210,7 @@ Mesh files no longer used:
 	</property>
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="ActionSkillGroup" value="Shotguns"/>
-	<property name="CraftingSkillGroup" value="Weapon Smithing"/> <!-- 15.0 workaround. Should be Gun Smithing -->
+	<property name="CraftingSkillGroup" value="Gun Smithing"/> <!-- 15.0 workaround. Should be Gun Smithing -->
 	<property name="RepairExpMultiplier" value="10.8"/>
 </item>
 
@@ -3008,7 +3061,28 @@ which does not exist, yet. -->
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
-
+<item id="234" name="partsScrapPistol_grip">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+	<property name="PartType" value="Stock" />
+	<property name="Weight" value="10" />
+	<property class="Attributes">
+		<property name="DegradationRate" value="10,10" />
+		<property name="DegradationMax" value="700,4000" />
+	</property>
+	<property name="EconomicValue" value="412" />
+</item>
+<item id="235" name="partsScrapPistol_receiver">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+	<property name="PartType" value="Receiver" />
+	<property name="Weight" value="20" />
+	<property class="Attributes">
+		<property name="FalloffRange" value="15,50" />
+		<property name="DegradationMax" value="700,4000" />
+	</property>
+	<property name="EconomicValue" value="412" />
+</item>
 <item id="236" name="partsAK47_stock">
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsAK47GroupDesc"/>
@@ -3054,6 +3128,29 @@ which does not exist, yet. -->
 		<property name="DegradationMax" value="2250,10000" />
 	</property>
 	<property name="EconomicValue" value="1500" />
+</item>
+<item id="240" name="partsScrapPistol_parts">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+	<property name="PartType" value="Pump" />
+	<property name="Weight" value="10" />
+	<property class="Attributes">
+		<property name="Accuracy" value="1,0.1" />
+		<property name="DegradationMax" value="700,4000" />
+	</property>
+	<property name="EconomicValue" value="412" />
+</item>
+<item id="241" name="partsScrapPistol_barrel">
+	<property name="Extends" value="partsMaster" />
+	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
+	<property name="PartType" value="Barrel" />
+	<property name="Weight" value="10" />
+	<property class="Attributes">
+		<property name="EntityDamage" value="5.4, 19" />
+		<property name="BlockDamage" value="3,10" />
+		<property name="DegradationMax" value="700,4000" />
+	</property>
+	<property name="EconomicValue" value="412" />
 </item>
 
 <item id="242" name="partsHuntingRifle_stock">
@@ -8579,18 +8676,6 @@ which does not exist, yet. -->
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
 	<property name="EconomicValue" value="77" />
 	<property name="Group" value="Resources,Ammo/Weapons" />
-</item>
-
-<item id="1356" name="50CalBulletCasing">
-	<property name="Meshfile" value="Items/Crafting/bullet_casingPrefab" />
-	<property name="Material" value="brass" />
-	<property name="HoldType" value="21" />
-	<property name="Stacknumber" value="500" /> <!-- STK resource -->
-	<property name="EconomicValue" value="25" />
-	<property name="EconomicBundleSize" value="5" />
-	<property name="Group" value="Resources,Ammo/Weapons" />
-	<property name="Weight" value="1" />
-	<property name="CraftingSkillGroup" value="Blacksmith"/>
 </item>
 
 <item id="1359" name="repairKit">

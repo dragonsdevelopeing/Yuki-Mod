@@ -1452,6 +1452,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="partsMP5_parts" count="1"/>
 </recipe>
 
+<recipe name="gunScrapPistol" count="1" craft_area="assembly">
+	<ingredient name="flashlight02" count="0"/>
+	<ingredient name="partsScrapPistol_parts" count="1"/>
+	<ingredient name="partsScrapPistol_barrel" count="1"/>
+	<ingredient name="partsScrapPistol_receiver" count="1"/>
+	<ingredient name="partsScrapPistol_grip" count="1"/>	
+</recipe>
+
 <recipe name="gunPistol" count="1" craft_area="assembly">
 	<ingredient name="flashlight02" count="0"/>
 	<ingredient name="partsPistol_parts" count="1"/>
@@ -1567,7 +1575,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="feather" count="1"/>
 </recipe>
 
-<recipe name="stoneArrowHead" count="10" craft_area="forge" craft_tool="anvil" material_based="true">
+<recipe name="stoneArrowHead" count="10" material_based="true">
 	<ingredient name="rockSmall" count="1"/>
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
@@ -3319,8 +3327,63 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
         <ingredient name="gunScope" count="1" />
         <ingredient name="gunSilencer" count="1" />
         <ingredient name="partsSniperRifle_parts" count="1" />
-    </recipe>			
-				
+    </recipe>
+		<!-- Gun Parts -->
+<recipe name="partsScrapPistol_parts" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="20"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
+<recipe name="partsScrapPistol_barrel" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="20"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
+<recipe name="partsScrapPistol_receiver" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="20"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
+<recipe name="partsScrapPistol_grip" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="20"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
+
+<recipe name="partsPistol_parts" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="3"/>
+</recipe>
+<recipe name="partsPistol_barrel" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="3"/>
+</recipe>
+<recipe name="partsPistol_receiver" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="3"/>
+</recipe>
+<recipe name="partsPistol_grip" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="3"/>
+</recipe>
+
+<recipe name="parts44Magnum_frame" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="3"/>
+</recipe>
+<recipe name="parts44Magnum_cylinder" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="3"/>
+</recipe>
+<recipe name="parts44Magnum_parts" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="3"/>
+</recipe>
+<recipe name="parts44Magnum_grip" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_clay" count="3"/>
+</recipe>	
+
+
+
+
+			
 		<!-- Trap Mods -->
 <recipe name="trussingSpike" count="1" craft_area="forge" craft_tool="anvil" material_based="true">
 	<ingredient name="unit_iron" count="40"/>

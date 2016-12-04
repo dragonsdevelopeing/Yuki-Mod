@@ -866,7 +866,7 @@
 			<multiply skill_level="150,160" value="1.1,1.05" />
 			<multiply skill_level="160,170" value="1.05,1." />
 		</effect>
-		<recipe name="gunHuntingRifle" unlock_level="20"/>
+		<recipe name="gunHuntingRifle" unlock_level="10"/>
 		<recipe name="gunBoltRifle" unlock_level="20"/>
 		<recipe name="gunHuntingRifleSilenced" unlock_level="30"/>
 		<recipe name="gunBoltRifleSilenced" unlock_level="30"/>
@@ -874,6 +874,7 @@
 		<recipe name="gunSniperSilenced" unlock_level="50"/>
 		<recipe name="gunSniperRifleHPScope" unlock_level="50"/>
 		<recipe name="gunSniperRifleHPScopeSilenced" unlock_level="50"/>
+		<recipe name="gun50CalSniperRifle" unlock_level="60"/>		
 	</action_skill>
 	<perk name="Better Lead Than Dead" icon="rifle" description_key="betterLeadThanDeadDesc" title_key="betterLeadThanDead" max_level="10" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 		<requirement perk_level="1" required_skill_name="Rifles" required_skill_level="1"/>
@@ -1243,8 +1244,123 @@
 			<multiply skill_level="180,190" value=".30,.20" />
 			<multiply skill_level="190,200" value=".20,.10" />				
 		</effect>
-	</crafting_skill>
-	<crafting_skill name="Tool Smithing" icon="tool_smithing" description_key="toolSmithingDesc" title_key="toolSmithing" group="tools">
+		</crafting_skill>
+	
+	<crafting_skill name="Gun Smithing" icon="rifle" description_key="gunSmithingDesc" title_key="gunSmithing" group="firearms">
+		<!-- Recipe locking example <recipe name="clubWood" unlock_level="1"/> -->
+		<effect name="CraftingTime">
+			<multiply skill_level="1,5" value="1,.931" />
+			<multiply skill_level="5,11" value=".931,.871" />
+			<multiply skill_level="11,19" value=".871,.813" />
+			<multiply skill_level="19,32" value=".813,.741" />
+			<multiply skill_level="32,49" value=".741,.667" />
+			<multiply skill_level="49,70" value=".667,.591" />
+			<multiply skill_level="70,100" value=".591,.5" />
+			<multiply skill_level="100,120" value=".5,.49" />
+			<multiply skill_level="120,140" value=".49,.47" />
+			<multiply skill_level="140,160" value=".47,.45" />
+			<multiply skill_level="160,180" value=".45,.43" />
+			<multiply skill_level="180,200" value=".43,.40" />
+		</effect>
+		<effect name="CraftingQuality">
+			<setvalue skill_level="1,5" value="1,69" />
+			<setvalue skill_level="5,11" value="69,129" />
+			<setvalue skill_level="11,19" value="129,187" />
+			<setvalue skill_level="19,32" value="187,259" />
+			<setvalue skill_level="32,49" value="259,334" />
+			<setvalue skill_level="49,70" value="334,409" />
+			<setvalue skill_level="70,100" value="409,500" />
+			<setvalue skill_level="100,120" value="500,510" />
+			<setvalue skill_level="120,140" value="510,520" />
+			<setvalue skill_level="140,160" value="520,530" />
+			<setvalue skill_level="160,180" value="530,550" />
+			<setvalue skill_level="180,190" value="550,570" />
+			<setvalue skill_level="190,200" value="570,600" />
+		</effect>
+		<effect name="RepairTime">
+			<multiply skill_level="1,10" value="1.00,0.70"/>
+			<multiply skill_level="10,20" value="0.70,0.61"/>
+			<multiply skill_level="20,30" value="0.61,0.54"/>
+			<multiply skill_level="30,40" value="0.54,0.48"/>
+			<multiply skill_level="40,50" value="0.48,0.43"/>
+			<multiply skill_level="50,60" value="0.43,0.39"/>
+			<multiply skill_level="60,70" value="0.39,0.35"/>
+			<multiply skill_level="70,80" value="0.35,0.31"/>
+			<multiply skill_level="80,90" value="0.31,0.28"/>
+			<multiply skill_level="90,100" value="0.28,0.25"/>
+			<multiply skill_level="100,120" value="0.25,0.24"/>
+			<multiply skill_level="120,130" value="0.241,0.23"/>
+			<multiply skill_level="130,140" value="0.23,0.225"/>
+			<multiply skill_level="140,150" value="0.225,0.22"/>
+			<multiply skill_level="150,160" value="0.22,0.215"/>
+			<multiply skill_level="160,170" value="0.215,0.21"/>
+			<multiply skill_level="170,180" value="0.21,0.205"/>
+			<multiply skill_level="180,190" value="0.205,0.2"/>
+			<multiply skill_level="190,200" value="0.2,0.155"/>
+		</effect>
+		<effect name="RepairAmount">
+			<add skill_level="1,10" value="1,21"/>
+			<add skill_level="10,20" value="21,27"/>
+			<add skill_level="20,30" value="27,31"/>
+			<add skill_level="30,40" value="31,35"/>
+			<add skill_level="40,50" value="35,38"/>
+			<add skill_level="50,60" value="38,41"/>
+			<add skill_level="60,70" value="41,43"/>
+			<add skill_level="70,80" value="43,46"/>
+			<add skill_level="80,90" value="46,48"/>
+			<add skill_level="90,100" value="48,50"/>
+			<add skill_level="100,120" value="50,52"/>
+			<add skill_level="120,130" value="52,54"/>
+			<add skill_level="130,140" value="54,56"/>
+			<add skill_level="140,150" value="56,58"/>
+			<add skill_level="150,160" value="58,60"/>
+			<add skill_level="160,170" value="60,62"/>
+			<add skill_level="170,180" value="62,64"/>
+			<add skill_level="180,190" value="64,66"/>
+			<add skill_level="190,200" value="66,68"/>
+		</effect>
+		<effect name="RepairQualityLoss">
+			<multiply skill_level="1,5" value="1.67,1.564" /> <!-- =100 points at QL 600 -->
+			<multiply skill_level="5,11" value="1.564,1.483" />
+			<multiply skill_level="11,19" value="1.483,1.359" />
+			<multiply skill_level="19,32" value="1.359,1.25" />
+			<multiply skill_level="32,49" value="1.25,1.2" />
+			<multiply skill_level="49,70" value="1.2,1.1" />
+			<multiply skill_level="70,100" value="1.1,1.0" />
+			<multiply skill_level="100,110" value="1.0,0.95" />
+			<multiply skill_level="110,120" value="0.95,0.90" />
+			<multiply skill_level="120,130" value="1.109,.80" />
+			<multiply skill_level="130,140" value=".80,.70" />
+			<multiply skill_level="140,150" value=".70,.60" />
+			<multiply skill_level="150,160" value=".60,.50" />
+			<multiply skill_level="160,170" value=".50,.40" />
+			<multiply skill_level="170,180" value=".40,.30" />
+			<multiply skill_level="180,190" value=".30,.20" />
+			<multiply skill_level="190,200" value=".20,.10" />				
+		</effect>
+		<recipe name="gunPistol" unlock_level="20"/>
+		<recipe name="gunMP5" unlock_level="20"/>
+		<recipe name="gunPumpShotgun" unlock_level="20"/>		
+		<recipe name="gunPistolSilenced" unlock_level="30"/>
+		<recipe name="gunMP5Silenced" unlock_level="30"/>		
+		<recipe name="gun44Magnum" unlock_level="40"/>
+		<recipe name="gunAK47" unlock_level="40"/>		
+		<recipe name="gun44MagnumSilenced" unlock_level="50"/>
+		<recipe name="gunAK47Silenced" unlock_level="50"/>			
+		<recipe name="gunHuntingRifle" unlock_level="10"/>
+		<recipe name="gunBoltRifle" unlock_level="20"/>
+		<recipe name="gunHuntingRifleSilenced" unlock_level="30"/>
+		<recipe name="gunBoltRifleSilenced" unlock_level="30"/>
+		<recipe name="gunSniperRifle" unlock_level="40"/>
+		<recipe name="gunSniperSilenced" unlock_level="50"/>
+		<recipe name="gunSniperRifleHPScope" unlock_level="50"/>
+		<recipe name="gunSniperRifleHPScopeSilenced" unlock_level="50"/>
+		<recipe name="gun50CalSniperRifle" unlock_level="60"/>
+		<recipe name="gunSawedOffPumpShotgun" unlock_level="15"/>
+		<recipe name="gunPumpShotgunChoked" unlock_level="30"/>
+		</crafting_skill>
+
+		<crafting_skill name="Tool Smithing" icon="tool_smithing" description_key="toolSmithingDesc" title_key="toolSmithing" group="tools">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,5" value="1,.931" />
 			<multiply skill_level="5,11" value=".931,.871" />
