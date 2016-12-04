@@ -1196,15 +1196,15 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="feather" count="1"/>
 </recipe>
 
-<recipe name="fertilizer" count="1" craft_area="chemistryStation" craft_tool="beaker">
+<recipe name="fertilizer" count="1" craft_area="chemistryStation" craft_time="180" craft_tool="beaker">
 	<ingredient name="turd" count="1"/>
-	<ingredient name="potassiumNitratePowder" count="10"/>
+	<ingredient name="potassiumNitratePowder" count="5"/>
 	<ingredient name="dirtFragment" count="3"/>
 </recipe>
 
-<recipe name="fertilizer" count="1" craft_area="chemistryStation">
+<recipe name="fertilizer" count="1" craft_area="chemistryStation" craft_time="180">
 	<ingredient name="rottingFlesh" count="5"/>
-	<ingredient name="potassiumNitratePowder" count="10"/>
+	<ingredient name="potassiumNitratePowder" count="5"/>
 	<ingredient name="dirtFragment" count="5"/>
 </recipe>
 
@@ -1478,6 +1478,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="potassiumNitratePowder" count="2"/>
 </recipe>
 
+<recipe name="gunPowder" count="10" craft_area="chemistryStation">
+	<ingredient name="coal" count="10"/>
+	<ingredient name="potassiumNitratePowder" count="10"/>
+</recipe>
+
 <recipe name="gunPowder" count="10" craft_area="workstationArmory">
 	<ingredient name="coal" count="10"/>
 	<ingredient name="potassiumNitratePowder" count="10"/>
@@ -1525,6 +1530,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <recipe name="hayBaleBlock" count="1">
 	<ingredient name="yuccaFibers" count="10"/>
+</recipe>
+
+<recipe name="coal" count="1" craft_area="campfire">
+	<ingredient name="wood" count="10"/>
+</recipe>
+
+<recipe name="coal" count="1" craft_area="forge">
+	<ingredient name="wood" count="5"/>
 </recipe>
 
 <recipe name="herbalAntibiotics" count="1" craft_area="campfire" craft_tool="cookingPot">
