@@ -3053,7 +3053,7 @@
 		<item name="leatherDuster" count="1"/>
 		<item name="huntingKnife" count="1" quality="250,250"/>
         <item name="cowboyHat" count="1"  quality="170,170"/>
-        <item name="gunpistol" count="1" quality="250,250"/>
+        <item name="gunPistol" count="1" quality="250,250"/>
         <item name="9mmBullet" count="70"/>
         <item name="repairKit" count="4"/>
 		<item name="challengeClassGunman" count="1"/>
