@@ -5177,7 +5177,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 <recipe name="casinoCoin" count="10" craft_area="workstationMerchant" craft_time="1300">
 	<ingredient name="survivorNotes" count="1"/>
-</recipe>
+</recipe> 
 <recipe name="seedPack" count="1" craft_area="workstationMerchant" craft_time="1300">
 	<ingredient name="casinoCoin" count="50"/>
 </recipe>
@@ -5216,7 +5216,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 <recipe name="merchantOrderGascan" count="1" craft_area="workstationMerchant" craft_time="1300">
 	<ingredient name="casinoCoin" count="8300"/>
-</recipe>
+</recipe> 
 <recipe name="carBattery" count="1" craft_area="workstationMerchant" craft_time="1300">
 	<ingredient name="casinoCoin" count="500"/>
 </recipe>
@@ -5237,7 +5237,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 <recipe name="shoppingBasketItem" count="1" craft_area="workstationMerchant" craft_time="1300">
 	<ingredient name="casinoCoin" count="250"/>
-</recipe>
+</recipe> 
 <recipe name="merchantOrderMinibikeWheels" count="1" craft_area="workstationMerchant" craft_time="1300">
 	<ingredient name="casinoCoin" count="500"/>
 </recipe>
@@ -5392,7 +5392,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="casinoCoin" count="1200"/>
 </recipe>
 
-
 <recipe name="merchantOrderPistol" count="1" craft_area="workstationMerchant" craft_time="1300">
 	<ingredient name="casinoCoin" count="1500"/>
 </recipe>
@@ -5439,8 +5438,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 <recipe name="merchantOrderWrench" count="1" craft_area="workstationMerchant" craft_time="1300">
 	<ingredient name="casinoCoin" count="240"/>
-</recipe>
--->
+</recipe> -->
+
 <!-- Simple Forge -->
 <!-- Valmod Temp Remove for performance
 <recipe name="clayLump" count="1" craft_area="simpleForge" material_based="true" craft_time = "1" craft_exp_gain="0">
@@ -5496,7 +5495,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="ironArrowHead" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
 	<ingredient name="unit_iron" count="2"/>
 	<ingredient name="unit_clay" count="1"/>
-</recipe>
+</recipe> 
 <recipe name="metalTrussingBlock" count="1" craft_area="simpleForge" craft_tool="anvil" material_based="true">
 	<ingredient name="unit_iron" count="20"/>
 	<ingredient name="unit_clay" count="5"/>
