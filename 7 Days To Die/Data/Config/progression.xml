@@ -1135,25 +1135,6 @@
 	<!-- Crafting Skills -->
 	<crafting_skill name="Weapon Smithing" icon="weapon_smithing" description_key="weaponSmithingDesc" title_key="weaponSmithing" group="weapons">
 		<!-- Recipe locking example <recipe name="clubWood" unlock_level="1"/> -->
-		<effect name="EntityDamage">
-			<multiply skill_level="1,5" value="1,1.04" />
-			<multiply skill_level="5,11" value="1.04,1.07" />
-			<multiply skill_level="11,19" value="1.07,1.1" />
-			<multiply skill_level="19,32" value="1.1,1.14" />
-			<multiply skill_level="32,49" value="1.14,1.19" />
-			<multiply skill_level="49,70" value="1.19,1.23" />
-			<multiply skill_level="70,100" value="1.23,1.28" />
-			<multiply skill_level="100,110" value="1.28,1.31" />
-			<multiply skill_level="110,120" value="1.31,1.34" />
-			<multiply skill_level="120,130" value="1.34,1.37" />
-			<multiply skill_level="130,140" value="1.37,1.40" />
-			<multiply skill_level="140,150" value="1.40,1.43" />
-			<multiply skill_level="150,160" value="1.43,1.46" />
-			<multiply skill_level="160,170" value="1.46,1.49" />	
-			<multiply skill_level="170,180" value="1.49,1.52" />
-			<multiply skill_level="180,190" value="1.52,1.55" />
-			<multiply skill_level="190,200" value="1.55,1.6" />				
-		</effect>
 		<effect name="CraftingTime">
 			<multiply skill_level="1,5" value="1,.931" />
 			<multiply skill_level="5,11" value=".931,.871" />
