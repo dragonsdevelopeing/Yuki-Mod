@@ -10,3 +10,10 @@ Loot.xml needs the new weapons placed in them. Atm they are craftable but not lo
 This Version is for testing on SP and with cheat menu ON.
 
 Leave feedback on thoughts :-)
+
+Added Desert Eagle Pistol.
+Added 50Cal Sniper
+Add Scoped Crossbow
+Seed/Fertilizer/modly bread recipies tweeked
+Skill and perk caps doubled.
+Gun crafting add and guns moved to it.
