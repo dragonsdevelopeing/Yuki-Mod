@@ -36,6 +36,7 @@
 		</window_group>
 		
 		<window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowToolsCementMixer" />
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -44,6 +45,7 @@
 		</window_group>		
 		
 		<window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowToolsWorkbench" />
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -53,6 +55,7 @@
 		</window_group>				
 
 		<window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowToolsChemistry" />
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCraftingQueue"/>
@@ -79,11 +82,20 @@
 		<window_group name="dragAndDrop">
 			<window name="dragAndDropItemStack" />
 		</window_group>
-		
+
+<!-- <<< SMX v15b104e r08 START - BY SIRILLION >>> -->
+
 		<window_group name="compass">
-			<window name="windowCompass" />
+			<window name="SMXCompass1" />									<!-- Swappable frame. Change between different compass frames by changing the number. Choose between 1-2 -->
+			<window name="SMXQuestTracker" anchor="RightTop" />
+			<window name="SMXBuffFrame2" anchor="LeftBottom" />				<!-- Swappable frame. Change between different buff frames by changing the number. Choose between 1-4 -->
+			<window name="SMX" anchor="RightTop" />
+			<window name="SMXLevelXPUF1" />									<!-- Swappable frame. Change between different Level/XP displays by changing the number. Choose between 1-2 -->
+			<window name="SMXDayTimeFrame" />
 		</window_group>
-		
+
+
+<!-- <<< SMX v15b104e r08 END - BY SIRILLION >>> -->
 		<window_group name="toolTip">
 			<window name="toolTip" />
 			<window name="popupMenu" />
@@ -102,10 +114,12 @@
 		</window_group>
 		
 		<window_group name="toolbelt">
-			<window name="windowToolbelt" anchor="CenterBottom" />
-			<window name="HUDLeftStatBars" anchor="LeftBottom" />
-			<window name="HUDRightStatBars" anchor="RightBottom" />
-			<window name="windowQuestTracker" anchor="RightTop" />
+			<window name="ValmodToolbelt" anchor="CenterBottom" />
+			<window name="SMXUnitFrame1" anchor="LeftBottom" />
+			<window name="SMXHudOther" anchor="RightBottom" />
+			<window name="SMXTempFrameUF1" />
+			<window name="ZombieKillTracker" />	<!-- Window that displays Zombie Kills -->
+			<window name="windowToolbeltNumbersHUD" />	<!-- Window that displays Numbers on the tool belt for each slot  - Delete this line to remove these items -->
 		</window_group>
 		
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
@@ -179,9 +193,59 @@
 		<window_group name="sign">
 			<window name="windowSignEdit" />
 		</window_group>
-		
+
 		<window_group name="rwgeditor" controller="XUiC_RWGEditorWindowGroup">
 			<window name="windowRWGPreview" />
+		</window_group>
+
+		<window_group name="workstation_workstationOven" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsCampfire" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_dyeStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_workstationArmory" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<window name="windowToolsArmory" />
+		</window_group>
+
+		<window_group name="workstation_workstationMerchant" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_workstationDecor" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowToolsDecorWorkbench" />
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		<window_group name="workstation_simpleForge" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsForge" />
+			<window name="windowFuel" />
+			<window name="windowForgeInput" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
 		</window_group>
 	</ruleset>
 </xui>

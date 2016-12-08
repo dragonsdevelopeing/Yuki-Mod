@@ -1,0 +1,19 @@
+ID 52 50cal sniper rifle
+ID 53 30-06 rifle
+ID 41 Desert Eagle
+ID 46 Auto 12guage shotgun
+ID 154 50calBullet
+ID 1653 50CalbulletHP
+ID 1654 50CalbulletINC
+ID 1655 50CalbulletAP
+ID 1656 30-06HP
+ID 1657 30-06INC
+ID 155 30-06Bullet
+<item id="229" name="partsDesertEagle_frame">
+<item id="228" name="partsDesertEagle_parts">
+<item id="221" name="partsDesertEagle_cylinder">
+<item id="220" name="partsDesertEagle_grip">
+<item id="214" name="parts50CalSniperRifle_stock">
+<item id="215" name="parts50CalSniperRifle_receiver">
+<item id="246" name="parts50CalSniperRifle_parts">
+<item id="247" name="parts50CalSniperRifle_barrel">

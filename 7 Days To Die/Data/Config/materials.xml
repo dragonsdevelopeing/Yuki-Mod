@@ -384,7 +384,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="stepsound" value="stone" />
 	<property name="stability_glue" value="65" />
 	<property name="Mass" type="int" value="13" />
-	<property name="MaxDamage" value="1200" />
+	<property name="MaxDamage" value="1500" />
 </material>
 
 <material id="Mmetal_weak">
@@ -820,7 +820,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="stepsound" value="stone" />
 	<property name="stability_glue" value="72" />
 	<property name="Mass" type="int" value="12" />
-	<property name="MaxDamage" value="1500" />
+	<property name="MaxDamage" value="1300" />
 </material>
 
 <!-- Materials for blocks that are not supposed to stick to walls. -->
@@ -885,4 +885,85 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="MaxDamage" value="100" />
 </material>
 
+						<!--	Valmod Materials	-->
+		<!--Survivor Notes-->
+   <material id="Survivor Notes">
+      <property name="damage_category" value="cloth" />
+      <property name="surface_category" value="cloth" />
+      <property name="forge_category" value="survivorNotes" />
+      <property name="Hardness" type="float" value="0.1" />
+      <property name="stepsound" value="wood" />
+      <property name="stability_glue" value="24" />
+      <property name="Mass" type="int" value="6" />
+   </material> 
+		<!--Animal Snare-->
+   <material id="snare">
+      <property name="Hardness" type="float" value="0.2" />
+      <property name="explosionresistance" value="0" />
+      <property name="stepsound" value="cloth" />
+      <property name="lightopacity" value="4" />
+      <property name="stability_glue" value="2" />
+      <property name="Mass" type="int" value="1" />
+      <property name="StabilitySupport" value="false" />
+   </material>
+   <material id="animalHide">
+      <property name="damage_category" value="cloth" />
+      <property name="surface_category" value="cloth" />
+      <property name="forge_category" value="animalHide" />
+      <property name="Hardness" type="float" value="1" />
+      <property name="stepsound" value="wood" />
+      <property name="stability_glue" value="24" />
+      <property name="Mass" type="int" value="6" />
+	  <property name="MaxDamage" value="20" />
+   </material>
+   <material id="assortedVegetables">
+      <property name="damage_category" value="cloth" />
+      <property name="surface_category" value="cloth" />
+      <property name="forge_category" value="assortedVegetables" />
+      <property name="Hardness" type="float" value="1" />
+      <property name="stepsound" value="wood" />
+      <property name="stability_glue" value="24" />
+      <property name="Mass" type="int" value="6" />
+	  <property name="MaxDamage" value="20" />
+   </material>
+<material id="faucet">
+	<property name="damage_category" value="metal" />
+	<property name="surface_category" value="metal" />
+	<property name="forge_category" value="iron" />
+	<property name="Hardness" type="float" value="1" />
+	<property name="stepsound" value="metal" />
+	<property name="stability_glue" value="0" />
+	<property name="Mass" type="int" value="1" />
+	<property name="MaxDamage" value="100" />
+</material>
+<material id="faucetbrass">
+	<property name="damage_category" value="metal" />
+	<property name="surface_category" value="metal" />
+	<property name="forge_category" value="brass" />
+	<property name="Hardness" type="float" value="1" />
+	<property name="stepsound" value="metal" />
+	<property name="stability_glue" value="0" />
+	<property name="Mass" type="int" value="20" />
+	<property name="MaxDamage" value="100" />
+</material>
+<material id="Mflagstone">
+	<property name="damage_category" value="stone" />
+	<property name="surface_category" value="stone" />
+	<property name="forge_category" value="stone" />
+	<property name="Hardness" type="float" value="1" />
+	<property name="stepsound" value="stone" />
+	<property name="stability_glue" value="72" />
+	<property name="Mass" type="int" value="12" />
+	<property name="MaxDamage" value="2000" />
+</material>
+   <material id="feather">
+	<property name="damage_category" value="wood" />
+	<property name="surface_category" value="wood" />
+	<property name="forge_category" value="feather" />
+	<property name="Hardness" type="float" value="1" />
+	<property name="stepsound" value="wood" />
+	<property name="stability_glue" value="24" />
+	<property name="Mass" type="int" value="4" />
+	<property name="MaxDamage" value="200" />
+   </material>
 </materials>

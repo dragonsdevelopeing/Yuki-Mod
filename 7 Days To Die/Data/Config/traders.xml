@@ -274,6 +274,9 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="partsRocketLauncher_receiver"/>
 			<item name="partsRocketLauncher_parts"/>
 			<item name="rocketLauncherSchematic"/>
+			<item name="gunChoke"/>
+			<item name="gunSilencer"/>
+			<item name="gunScope"/>
 		</trader_item_group>
 
 		<trader_item_group name="meleeWeapon">
@@ -293,7 +296,6 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="firstAidKit"/>
 			<item name="beaker"/>
 			<item name="antibiotics"/>
-			<item name="bloodDrawKit"/>
 			<item name="firstAidKitSchematic"/>
 		</trader_item_group>
 
@@ -302,11 +304,43 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="firstAidBandage"/>
 			<item name="bandage"/>
 			<item name="emptyJar"/>
-			<item name="bloodBag"/>
 			<item name="vitamins"/>
 			<item name="grainAlcohol"/>
 			<item name="splint"/>
 			<item group="rareMedicine"/>
+		</trader_item_group>
+
+		<trader_item_group name="ValmodQuests" count="1">
+	<item name="challengeSticky"/>
+	<item name="challengeBigBadBosses"/>
+	<item name="challengeAnkleBitters"/>
+	<item name="challengeLightThemUp"/>
+	<item name="challengeDogEatDog"/>
+	<item name="challengeFeedTheMole"/>
+	<item name="challengeTakingNote"/>
+	<item name="challengeHotrod"/>
+	<item name="challengeSurvivorJournal"/>
+	<item name="challengeLockpick"/>
+	<item name="challengeKickz"/>
+	<item name="challengeJock"/>
+	<item name="challengeReaper"/>
+	<item name="challengeWalmart"/>
+		</trader_item_group>
+
+		<trader_item_group name="SpecialQuests" count="2">
+			<item name="challengeWedding"/>
+			<item name="challengeWallet"/>
+			<item name="challengeBooks"/>
+			<item name="challengeChildsHappiness"/>
+			<item name="challengeToilet"/>
+			<item name="challengeWalkman"/>
+			<item name="challengeCondoms"/>
+			<item name="challengeBaseball"/>
+			<item name="challengeCards"/>
+			<item name="challengeCigarettes"/>
+			<item name="challengeArtist"/>
+			<item name="challengeSoap"/>
+			<item name="challengeBong"/>
 		</trader_item_group>
 
 		<trader_item_group name="questChallenge" count="1">
@@ -333,10 +367,12 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="qt_claude" count="1" prob="0.2"/>
 			<item name="qt_sarah" count="1" prob="0.2"/>
 			<item name="qt_raphael" count="1" prob="0.2"/>
+			<item group="ValmodQuests" count="1"/>
+			<item group="SpecialQuests" count="1"/>
 		</trader_item_group>
 
 		<trader_item_group name="commonBooks" count="1">
-			<item name="crossbowSchematic"/>
+<!--			<item name="crossbowSchematic"/>
 			<item name="huntingKnifeBook"/>
 			<item name="huntingRifleSchematic"/>
 			<item name="leatherBootsSchematic"/>
@@ -347,11 +383,22 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="pistolBook"/>
 			<item name="pumpShotgunSchematic"/>
 			<item name="sawedoffPumpShotgunSchematic"/>
-			<item name="wrenchSchematic"/>
+			<item name="wrenchSchematic"/> -->
+	<item name="skillbookAthletics"/>
+	<item name="skillbookArchery"/>
+	<item name="skillbookBarter"/>
+	<item name="pistolBook"/>
+	<item name="theEnforcerMagazine"/>
+	<item name="skillbookTools"/>
+	<item name="skillbookTailor"/>
+	<item name="skillbookRogue"/>
+	<item name="skillbookGunsmoke"/>
+	<item name="skillbookRifles"/>
+	<item name="skillbookShotguns"/>
 		</trader_item_group>
 
 		<trader_item_group name="rareBooks" count="1">
-			<item name="ak47Schematic"/>
+<!--			<item name="ak47Schematic"/>
 			<item name="augerSchematic"/>
 			<item name="chainsawSchematic"/>
 			<item name="clubSpikedSchematic"/>
@@ -372,7 +419,16 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item name="smgSchematics"/>
 			<item name="sniperRifleSchematic"/>
 			<item name="theEnforcerMagazine"/>
-			<item name="herbalAntibioticsRecipe" prob="0.5"/>
+			<item name="herbalAntibioticsRecipe" prob="0.5"/> -->
+	<item name="minibikesForDumbshits"/>
+	<item name="skillbookChemistry"/>
+	<item name="skillbookMedical"/>
+	<item name="skillbookBlacksmith"/>
+	<item name="skillbookBuilding"/>
+	<item name="recipebookMasonry"/>
+	<item name="macDyverBook"/>
+	<item name="skillbookBlunt"/>
+	<item name="skillbookWasteland"/>
 		</trader_item_group>
 
 		<trader_item_group name="books" count="1">
@@ -412,14 +468,20 @@ quality_mod: adjusts the price range of all items with a quality level.
 		</trader_item_group>
 
 		<trader_item_group name="ammoSupplies">
-			<item name="bulletCasing" count="8,40"/> <!-- 5 -->
-			<item name="bulletTip" count="20,80"/> <!-- 5 -->
-			<item name="buckshot" count="20,60"/> <!-- 5 -->
+<!--			<item name="bulletCasing" count="5,20"/>--> <!-- 5 -->
+			<item name="bulletTip" count="20,50"/> <!-- 5 -->
+			<item name="buckshot" count="20,50"/> <!-- 5 -->
 			<item name="gunPowder" count="5,30"/> <!-- 10 -->
 			<item name="paper" count="10,30"/> <!-- 10 -->
 			<item name="ironArrowHead" count="5,25" prob="0.05"/> <!-- 5 -->
 			<item name="steelArrowHead" count="5,25" prob="0.05"/> <!-- 5 -->>
 			<item name="feather" count="10,45"/> <!-- 5 -->
+			<!-- Valmod Casings -->
+			<item name="9mmBulletCasing" count="5,20"/>
+			<item name="10mmBulletCasing" count="5,20"/>
+			<item name="44MagBulletCasing" count="5,20"/>
+			<item name="762mmBulletCasing" count="5,20"/>
+			<item name="shotgunShellCasing" count="5,20"/>
 		</trader_item_group>
 
 
@@ -643,9 +705,8 @@ quality_mod: adjusts the price range of all items with a quality level.
 			<item group="ammoSupplies" count="2"/>
 			<item name="potassiumNitratePowder" count="2,5"/> <!-- 10 -->
 		</trader_item_group>
-
 		<trader_item_group name="traderGeneral" count="1">
-			<item name="beerBook" count="1" prob="2"/>
+<!--			<item name="beerBook" count="1" prob="2"/> -->
 			<item name="hopSeed" count="1,5" prob="2"/>
 			<item group="clothes" count="2,4"/>
 			<item group="commonWeaponParts" count="1,3" prob="0.5"/>
@@ -1318,6 +1379,37 @@ workstations
 	<!-- Rented - Vending Machine -->
 	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30" />		
 
+	<!-- Merchant Delivery Box -->
+	<trader_info id="20" reset_interval="2" override_buy_markup="2.5" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item name="bottledWater" count="1,2"/>
+			<item name="goldenRodTea" count="1,2"/>
+			<item name="redTea" count="1,2"/>
+			<item name="beer" count="1,2"/>
+			<item name="canSoup" count="1,2"/>
+			<item name="lokiMeat" count="1,2"/>
+			<item group="traderAlways"/>
+			<item group="traderGeneral" count="4,8"/>
+			<item group="generalResources" count="9,14"/>
+			<item group="constructionSupplies" count="2,8"/>
+			<item group="tools" count="0,2"/>
+			<item group="commonWeaponParts" count="0,3"/>
+			<item group="militaryWeaponParts" count="1"/>
+			<item group="gunsCommon" count="1" prob="0.3"/>
+			<item group="gunsMilitary" count="1" prob="0.1"/>
+			<item group="ammo" count="2,3" prob="0.4"/>
+			<item group="heavyArmor" count="1" prob="0.4"/>
+			<item group="banditArmor" count="1" prob="0.1"/>
+			<item name="miningHelmet" prob="0.5"/>
+		</trader_items>
+	</trader_info>
+
+	<!-- Quest Board -->
+	<trader_info id="21" reset_interval="2" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item group="questChallenge" count="1"/>
+		</trader_items>
+	</trader_info>
 
 	<!-- Trader 99/Test, carries a selection of everything -->
 	<trader_info id="99" min_inventory="50" max_inventory="600" min_items_swapped="13" max_items_swapped="13"
